@@ -2,13 +2,13 @@ import React from "react"
 import Navbar from "../components/NavBar/Navbar"
 import Footer from "../components/Footer/Footer"
 
-const Layout = () => {
+const Layout = ({children}) => {
   return (
-    <div>
+    <>
       <Navbar />
-      Hello world!
+           {children}
       <Footer />
-    </div>
+    </>
   )
 }
 
