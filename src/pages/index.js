@@ -1,9 +1,11 @@
-import React from "react"
-import {Link} from 'gatsby';
+import React from "react";
+import Layout from '../components/Layout';
+import 'bootstrap/dist/css/bootstrap.css';
 
-export default () => <div>
-    <nav>
-    <Link to = "/blog/">Blog</Link>
-    </nav>
-    Hello world!
+export default () => (
+    <div>
+        <Layout/>
+
+
     </div>
+)

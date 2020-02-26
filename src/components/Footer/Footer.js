@@ -1,12 +1,12 @@
 import React from 'react'
 
-
-const Error = () => {
+const Footer = () => {
   return (
     <div>
-      error
+        footsie
     </div>
   )
 }
 
-export default Error
+export default Footer
+
